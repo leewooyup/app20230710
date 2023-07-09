@@ -1,1 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://172.17.0.1:3307/app20230706?useUnicode=true&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Seoul
+    username: woo
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: none
 
